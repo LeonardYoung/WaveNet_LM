@@ -136,7 +136,7 @@ import utils.util as util
 if __name__ == "__main__":
     util.set_seed(43)
     fac_idx = 0
-    file_name = merge_one_factor('data/data.csv',fac_idx, 'data/water')
+    file_name = merge_one_factor('data/sample.csv',fac_idx, 'data/water')
     generate_dataset(file_name, f'data/',24,3)
 
     # # generate a sample adj file
